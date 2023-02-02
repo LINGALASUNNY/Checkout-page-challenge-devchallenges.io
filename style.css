@@ -1,0 +1,225 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'montserat',sans-serif;
+}
+body{
+    margin:auto;
+    width:50%;
+    color:#4e5150;
+}
+h1{
+    margin-top:20px;
+}
+.shop-cart{
+    position:absolute;
+    left:817px;
+    top:100px;
+    width:383px;
+    height:535px;
+    border-radius:12px;
+    background-color:#f2f2f2;
+}
+.shop-cart img{
+    width:175.7px;
+    height:135.91px;
+    border-radius:20px;
+    padding:10px; 
+}
+.cart{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:20px;
+}
+.cart h3{
+    font-size:16px;
+    width:162px;
+}
+.cart-info{
+    margin-top:20px;
+}
+#text{
+    font-size:16px;
+    color:#f2994a;
+}
+#text-1{
+    font-size:12px;
+    text-decoration:line-through;
+}
+.cart-info p{
+    border:1px solid #828282;
+    width:90px;
+    padding:10px;
+    margin-top:35px;
+    border-radius:12px;
+}
+.cart-info button{
+    width:21px;
+    height:21px;
+    margin-left:10px;
+}
+.shipping{
+    margin-top:50px;
+}
+.Total{
+    display:flex;
+    justify-content: space-between;
+    border-top:3px solid #828282;
+    width:327px;
+    padding-top:15px;
+    margin-top:20px;
+    margin-left:25px;
+}
+.Total h2{
+    font-size:18px;
+}
+.Total h4{
+    font-size:14px;
+}
+.contact-information{
+    position:absolute;
+    top:80px;
+}
+.input-field{
+    width:380px;
+    height:40px;
+    border-radius:12px;
+    border:1px solid #828282;
+    padding-left:38px;
+    font-size:16px;
+    margin-bottom:10px;
+}
+#icon{
+    position: relative;
+    top:30px;
+    left:10px;
+    font-size:20px;
+}
+label{
+   position:relative;
+   top:10px;
+}
+.rigion{
+    display:flex;
+    justify-content: space-between;
+}
+.country select{
+    width:150px;
+    height:40px;
+    border-radius:12px;
+    border:1px solid #828282;
+    font-size:16px;
+    padding-left:30px;
+    color:#828282;
+}
+.p-code input{
+     width:150px;
+     height:40px;
+     border:1px solid #828282;
+     border-radius:12px;
+     padding-left:40px;
+     font-size:16px;
+}
+.rigion+p{
+     margin-top:20px;
+}
+input[type='checkbox']{
+    width:21px;
+    height:21px;
+}
+#continue{
+    width:166px;
+    height:54px;
+    position:relative;
+    top:10px;
+    left:250px;
+    background-color:orange;
+    color:white;
+    border-radius:12px;
+    border:none;
+    font-size:16px;
+}
+.footer {
+    position: relative;
+    top:750px;
+    left:0;
+    bottom:0;
+    text-align:center;
+    color:#828282;
+    font-size:14px;
+}
+.footer a{
+    text-decoration:underline;
+    color:black;
+}
+@media(max-width:640px){
+         .shop-cart{
+          position:absolute;
+           left:10px;
+            width:350px;
+            height:490px;
+         }
+         .contact-information{
+            position:relative;
+            top:620px;
+            right:100px;
+            width:335px;
+            margin-left:25px;
+         }
+         h1{
+           font-size:24px;
+           position:relative;
+           right:75px;
+           top:10px;
+         }
+        .cart h3{
+            font-size:12px;  
+        }
+        #text,.Total h2,.Total h4,.contact-information h2{
+            font-size:14px; 
+        }
+        #text-1,label{
+            font-size:10px; 
+        }
+        .cart-info p{ 
+            width:70px;
+            padding:5px;
+            margin-top:35px;
+            border-radius:12px;
+        }
+        .cart-info button{
+            width:15px;
+            height:17px;   
+        }
+        .Total{ 
+            width:300px;
+            padding-top:10px;
+            margin-top:15px;
+            margin-left:25px;
+        }
+        .input-field{
+            width:300px;
+            font-size:14px;
+        }
+        #icon{
+            font-size:17px;
+        }
+        #continue{
+            position:relative;
+            top:20px;
+            left:170px;
+        }  
+        .footer {
+            top:680px;
+            right:100px;
+            font-size:10px;
+        }
+        .p-code input{
+             width:130px;
+             height:40px;
+             border:1px solid #828282;
+             border-radius:12px;
+             padding-left:40px;
+             font-size:16px;
+        } 
+}
